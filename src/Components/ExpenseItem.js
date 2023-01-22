@@ -12,12 +12,8 @@ function ExpenseItem(props) {
     useState(props.title);
     return(
         //JSX
-        <div className="expense-item">
-            <div>{expenseDate.toISOString()}</div>
-            <div className="expense-item__description">
-                <h2>{props.name}</h2>
-                <div className="expense-item__price">{expenseAmount}</div>
-            </div>
+        <div>
+            Hello World
         </div>
     )
 }
